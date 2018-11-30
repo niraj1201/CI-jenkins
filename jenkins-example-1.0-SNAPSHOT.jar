@@ -1,0 +1,14 @@
+<html><head><meta http-equiv='refresh' content='1;url=/login?from=%2Fjob%2Fci-demo%2F8%2Fartifact%2Fcom%2Ftechprimers%2Ftesting%2Fjenkins-example%2F1.0-SNAPSHOT%2Fjenkins-example-1.0-SNAPSHOT.jar'/><script>window.location.replace('/login?from=%2Fjob%2Fci-demo%2F8%2Fartifact%2Fcom%2Ftechprimers%2Ftesting%2Fjenkins-example%2F1.0-SNAPSHOT%2Fjenkins-example-1.0-SNAPSHOT.jar');</script></head><body style='background-color:white; color:white;'>
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body></html>                                                                                                                                                                                                                                                                                                            
