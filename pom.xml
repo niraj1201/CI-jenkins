@@ -72,3 +72,10 @@
 dependencies {
 classpath "org.sonarsource.scanner.gradle: sonarqube-gradle-plugin:2.5"
 }
+sonarqube {
+properties {
+property "sonar.host.url", http://35.196.150.151:9000 //  url is your sonar server
+property "sonar.projectName", "project  display name"   //  this name will appear in dashboard
+property "sonar.projectKey", "projectKey" // It sould be a keybased on this report is created
+property "sonar.groovy.jacoco.reportPath", "${project.buildDir}/jacoco/test.exec"    }
+}
