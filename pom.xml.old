@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.techprimers.testing</groupId>
-    <artifactId>jenkins-example</artifactId>
+    <artifactId>instance1cidemo.jfrog.io</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -27,7 +27,7 @@
                 </configuration>
             </plugin>
             <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
+                <artifactId>instance1cidemo.jfrog.io</artifactId>
                 <version>2.19</version>
                 <dependencies>
                     <dependency>
@@ -58,14 +58,14 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
+            <url>https://mymavenrepo.com/repo/uddshDbYfuBD1AUGM75V/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
+            <url>https://mymavenrepo.com/repo/tQf1PRXEuV7oRo7sDHbQ/</url>
         </repository>
     </distributionManagement>
 </project>
