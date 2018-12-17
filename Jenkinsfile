@@ -10,15 +10,7 @@ node{
       def mvnHome =  tool name: 'maven_3_5_0', type: 'maven'   
       sh "${mvnHome}/bin/mvn test"
    }
-   stage('upload Artifact'){
-      def uploadSpec = "central"{
-  "files": [
-    {
-      "pattern": "/var/lib/jenkins/workspace/new-demo2/target/*myweb*.war",
-      "target": "ci_demo"
-    }
- ]
-}"""
-server.upload(uploadSpec)
-   
+   stage('Deploy to Artifactoary'){
+      def server = Artifactory.server 'central'
+      sh "${server}" 
 }
