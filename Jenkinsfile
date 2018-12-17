@@ -8,7 +8,7 @@ node{
    }
    stage('Deploy to Tomcat'){
       sshagent(['tomcat-dev']) {
-         sh 'scp -o StrictHostKeyChecking=no target/*.war' ci_tomcate@35.231.153.198:/var/lib/tomcat/webapps'
+         sh 'scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/ci_docker/target/*.war' ci_tomcate@35.231.153.198:/var/lib/tomcat/webapps'
       }
    }
 }
