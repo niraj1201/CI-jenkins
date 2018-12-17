@@ -12,5 +12,5 @@ node{
    }
    stage('Deploy to Artifactoary'){
       def server = Artifactory.server 'central'
-      sh "${server}" 
+   }
 }
