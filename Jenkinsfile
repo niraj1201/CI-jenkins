@@ -6,9 +6,4 @@ node{
       def mvnHome =  tool name: 'maven_3_5_0', type: 'maven'   
       sh "${mvnHome}/bin/mvn package"
    }
-   stage('Deploy to Tomcat'){
-      sshagent(['tomcat-dev']) {
-         sh 'scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/ci_docker/target/*.war' ci_tomcate@35.231.153.198:/var/lib/tomcat/webapps'
-      }
-   }
 }
