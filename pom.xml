@@ -64,14 +64,14 @@
 
     <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>aolshared2b-releases</name>
-        <url>https://cidemo.jfrog.io/cidemo/New-demo</url>
+        <id>Releases</id>
+        <name>Releases</name>
+        <url>http://ec2-34-251-113-184.eu-west-1.compute.amazonaws.com:8081/repository/Releases</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>aolshared2b-snapshots</name>
-        <url>https://cidemo.jfrog.io/cidemo/New-demo</url>
+        <id>Snapshots</id>
+        <name>Snapshots</name>
+        <url>http://ec2-34-251-113-184.eu-west-1.compute.amazonaws.com:8081/repository/maven-snapshots</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
