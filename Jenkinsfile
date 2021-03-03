@@ -18,6 +18,11 @@ pipeline {
                     sh 'mvn test'
                 }
             }
+            post{
+                always{
+                    cucumber fileIncludePattern: '**/*.json', sortingMethod: 'ALPHABETICAL'
+                }
+            }
                 
         }
 
