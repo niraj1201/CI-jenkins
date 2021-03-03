@@ -17,6 +17,11 @@ pipeline {
                 withMaven(maven : 'Maven 3.6') {
                     sh 'mvn test'
                 }
+                post {
+                    always {
+                        junit 'target/surefire-reports/*.xml'
+                    }
+                }
             }
         }
 
